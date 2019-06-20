@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mercado Compre Certo</title>
+    <link rel="icon" href='logo_pronta.png'>
+	<link rel='stylesheet' type='text/css' href='index.css'/>
+	<link rel="stylesheet" type="text/css" href="slide.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	
+</head>
+<body>
+	<header>
+		<div class='logo'>
+			<img src="logo_pronta.png" width="150">
+		</div>
+	<nav id="menu">
+		<ul>
+			<li><a href='index.html'>Home</a></li>
+			<li><a href='quemsomos.html'>Quem somos</a></li>
+			<li><a href='acougue.html'>Açougue</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+			<li><a href='departamentos.html'>Departamentos</a></li>
+			<li><a href='contatos.html'>Contatos</a></li>
+		</ul>
+	</nav>
+	</header>
+    <p class='titulo'>Quem somos</p>
+    <img class='banner' src='quemsomos.jpg' width="700" height="300">
+    <img src='quem.jpg' width="646" height="300">
+    <p class='titulo'>Nossa história</p>
+    <p class='historia'>O mercado Compre Certo surgiu em 2007 (confirmar esse dado) na
+região de Osasco.<br> Fundada pela família Rasquinho, o
+estabelecimento tem como prioridade atender as necessidades
+dos clientes e obter total satisfação dos mesmos. O varejo vem
+desenvolvendo cada vez mais o seu negócio e catalogando novos
+produtos com os melhores preços.
+<br>
+Quer fazer uma compra? Compre Certo no Mercado da Economia!
+<br><br>
+O mercado Compre Certo surgiu em 2007 (confirmar esse dado) na
+região de Osasco.<br> Fundada pela família Rasquinho, o
+estabelecimento tem como prioridade atender as necessidades
+dos clientes e obter total satisfação dos mesmos. O varejo vem
+desenvolvendo cada vez mais o seu negócio e catalogando novos
+produtos com os melhores preços.
+
+Quer fazer uma compra? Compre Certo no Mercado da Economia!</p>
+<br>
+<img src="foto2.jpg" width="1400" height="300">
+<br>
+<p class='titulo2'>Missão,Visão e Valores</p>
+<br>
+<article>
+<div id="ftmissao">
+    <img class='quem' src='missao.png' width="160">
+    <p class='titulo3'>Por que estamos aqui?</p>
+    <p class='missao1'>O mercado Compre Certo busca suprir as necessidades de seus clientes,
+oferecendo-lhes melhores preços e um ótimo atendimento para a
+satisfação do seu público.</p>
+</div>
+</article>
+<article>
+        <div id="ftmissao">
+            <img class='quem' src='visao.png' width="160">
+            <p class='titulo3'>O que queremos alcançar?</p>
+            <p class='missao1'>Ampliar o público visando conquistar clientes virtuais e
+jurídicos, como restaurantes, e competir com os melhores
+preços da região.</p>
+        </div>
+        </article>
+        <article>
+                <div id="ftmissao">
+                    <img class='quem' src='valores.png' width="160">
+                    <p class='titulo3'>Quais são nossos princípios?
+                        </p>
+                       
+                    <ul>
+                        <li class='missao1'>Compromisso com o negócio</li>
+                        <li class='missao1'> Conexão com a comunidade</li>
+                                <li class='missao1'> Satisfação do cliente</li>
+                                <li class="missao1"> Higiene Local</li>
+                               <li class='missao1'> Ética Social
+                                </li>
+                    </ul>
+                </div>
+                </article>
+<footer>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.464060417492!2d-46.80243618544339!3d-23.515805984705537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cefe44164259c1%3A0xe42698e9cb73d577!2sMercado+Compre+Certo!5e0!3m2!1spt-BR!2sbr!4v1528650733017" width="350" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+<nav id="menuro">
+		<ul>
+			<li><a  class='menuro' href='#'>Home</a></li>
+			<li><a  class='menuro' href='#'>Quem somos</a></li>
+			<li><a 	class='menuro' href='#'>Açougue</a></li>
+			<li><a  class='menuro' href='#'>Departamentos</a></li>
+			<li><a 	class='menuro' href='#'>Contatos</a></li>
+		</ul>
+	</nav>
+	<p class='contato'>
+		Contatos<br><br>
+		(11)9999-9999<br>
+		Email:mercado@comprecerto.com<br>
+	</p>
+		<p class='end'>Mercado Compre Certo, R. Padre Viêira, 09 - Piratininga, Osasco - SP, 06230-080</p>
+
+</footer>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>

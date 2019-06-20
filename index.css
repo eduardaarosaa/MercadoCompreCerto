@@ -1,0 +1,387 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+#menu {
+	width:100%;
+	height:3cm;
+	background:#fff;
+	padding-top:1cm;
+}
+.logo{
+	float:left;
+	padding-right:1cm;
+}
+
+
+#menu ul li{
+	display:inline;
+	margin-left: 2cm;
+}
+#menu li a:link{
+
+	text-decoration:none;
+	color:#00008B;
+	font-size:12pt;
+	font-family: arial;
+	font-weight:bold;
+
+}
+#menu li a:hover{
+	text-decoration:none;
+	color:#00008B;
+	font-size:12pt;
+	font-family: arial;
+	font-weight:bold;
+}
+#menu li a:active{
+	text-decoration:none;
+	color:#00008B;
+	font-size:12pt;
+	font-family: arial;
+	font-weight:bold;
+}
+#menu li a:visited{
+	text-decoration:none;
+	color:#00008B;
+	font-size:12pt;
+	font-family: arial;
+	font-weight:bold;
+}
+.logo{
+	padding-left:3cm;
+}
+.titulo{
+	font-size:18pt;
+	color:#1C00A2;
+	font-family:arial;
+	font-weight:bold;
+	padding-left:17cm;
+	padding-top:1cm;
+}
+
+.card-text{
+	color:red;
+	font-weight:bold;
+	font-size:20pt;
+	font-family:arial;
+	text-decoration:center;
+}
+footer{
+	clear:both;
+	background-color:#1C00A2;
+	width:100%;
+	height:13cm;
+}
+.titulo1{
+	color:red;
+	font-size:14pt;
+	font-family:Arial
+	padding-left:5cm;
+	font-weight:bold;
+
+}
+.menuro{
+	color:white;
+	list-style:none;
+}
+#menuro{
+	padding-left:2cm;
+	padding-top:2cm;
+	padding-right:2cm;
+	float:left;
+}
+#menuro ul li {
+	list-style: none;
+	text-decoration:none;
+}
+#menuro li a:link{
+	list-style:none;
+	text-decoration:none;
+}
+iframe{
+	float:left;
+	margin-left:2cm;
+	margin-top:1cm;
+	margin-right:2cm;
+}
+.contato{
+	font-family:Arial;
+	color:white;
+	font-size:12pt;
+	padding-top:2cm;
+}
+.end{
+	clear:both;
+	color:#fff;
+	font-size:12pt;
+	font-family:arial;
+	padding-left:15cm;
+}
+.açougue{
+	float:left;
+	padding-right:2cm;
+}
+.carnes{
+	font-size:12pt;
+	font-family: Arial;
+	color:#1C00A2;
+}
+.carnes1{
+	padding-top:1cm;
+}
+button{
+	color:white;
+	background-color:#1C00A2;
+	padding-top:0.3cm;
+	padding-left:0.3cm;
+	padding-right:0.3cm;
+	padding-bottom:0.3cm;
+	border:none;
+	border-radius:0cm;
+	margin-left:2cm;
+	font-size: 14pt;
+}
+#new{
+	width:100%;
+	height:300px;
+	float:left;
+}
+#new img{
+	padding-left:3cm;
+	padding-top: 2cm;
+}
+
+.frase{
+	color:red;
+	font-family:arial;
+	font-weight:bold;
+	padding-left:3cm;
+	padding-top:2cm;
+	font-size:35pt;
+}
+.texto{
+	color:#1C00A2;
+	font-size:16pt;
+	font-family: arial;
+	padding-left:3cm;
+}
+.bnt-new{
+	color:white;
+	background-color:#1C00A2;
+	/*padding-top:0.1cm;
+	padding-left:0.2cm;
+	padding-right:0.2cm;
+	padding-bottom:0.1cm;*/
+	border:none;
+	border-radius:0.1cm;
+	margin-left:0cm;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 1rem;
+	padding: 0 15px;
+	transition: all 300ms ease;
+
+}
+input{
+	width:10cm;
+	height:1cm;
+}
+form{
+	display: inline-block;
+    vertical-align: middle;
+    line-height: 48px;
+    padding: 0 15px;
+    font-size: 1rem;
+    transition: all 300ms ease;
+    margin-left: 35px;
+}
+
+.news {text-align: center;position: relative;margin: 45px auto;}
+
+.newss {
+    
+    max-width: 100%;
+    margin: 0 auto;
+    clear: both;
+}
+
+.title_news {font-size: 32px;font-size: 2rem;color: #000;display: inline-block;vertical-align: middle;}
+.historia{
+	text-align: justify;
+	font-family: Arial;
+	font-size: 12pt;
+	padding-left: 4cm;
+	padding-right: 4cm;
+}
+.titulo2{
+	font-size:18pt;
+	color:#1C00A2;
+	font-family:arial;
+	font-weight:bold;
+	padding-left:15cm;
+	padding-top:1cm;
+}
+#ftmissao{
+	width:8cm;
+	height:10cm;
+	margin-left: 3cm;
+	float: left;
+}
+.quem{
+	padding-left:2.5cm;
+	width: 200px;
+	height:200x;
+}
+.titulo3{
+	font-size:14pt;
+	color:red;
+	font-family:arial;
+	padding-top:1cm;
+
+}
+.titulojr{
+	font-size:18pt;
+	color:red;
+	font-family:arial;
+	padding-top:1cm;
+	padding-left: 15cm;
+}
+.atacado{
+	padding-left: 3cm;
+	font-family: Arial;
+	font-size: 22pt;
+	color:red;
+
+}
+.preco{
+	padding-left:3cm;
+	font-family: Arial;
+	font-size: 16pt;
+	color:black;
+}
+.contato{
+	
+		color:white;
+		background-color:#1C00A2;
+		padding-top:0.3cm;
+		padding-left:0.3cm;
+		padding-right:0.3cm;
+		padding-bottom:0cm;
+		border:none;
+		border-radius:0.1cm;
+		margin-left:8cm;
+		margin-bottom:1cm;
+}
+.contatos1{
+	
+		color:white;
+		background-color:#1C00A2;
+		padding-top:2cm;
+		padding-left:0.3cm;
+		padding-right:0.3cm;
+		padding-bottom:0cm;
+		border:none;
+		border-radius:0.1cm;
+		
+}
+.card {
+	background-color:yellow;
+}
+.card-img-top{
+	background-color:yellow;
+}
+.card-body{
+	background-color:yellow;
+}
+.card-text{
+	background-color:yellow;
+}
+.produto{
+	font-family: arial;
+	font-size:18pt;
+}
+#formcontato{
+	width:100%;
+	height: 600px;
+	background-image:url('fundo_contato.jpeg');
+	
+}
+textarea{
+	width:10cm;
+	height:5cm;
+}
+.titulo4{
+	font-size:18pt;
+	color:#1C00A2;
+	font-family:arial;
+	font-weight:bold;
+	padding-left:13cm;
+	padding-top:1cm;
+
+}
+.formsg{
+	margin-left:12cm;
+	margin-top: 1cm;
+}
+.missao1{
+	font-family:arial;
+	font-size: 14pt;
+	
+}
+.banner{
+	float:left;
+}
+#atacadista{
+	float:left;
+	padding-right:1cm;
+}
+a{
+	color:none;
+}
+.letra{
+	font-size:16pt;
+	font-family:arial;
+}
+.quiz{
+	margin-left: 3cm;
+}
+.questao{
+	font-family:arial;
+	font-size:16pt;
+	color:red;
+	font-weight:bold;
+}
+.titulo6{
+	padding-left:12cm;
+	font-size:18pt;
+	color:#1C00A2;
+	font-family:arial;
+	font-weight:bold;
+}
+#terminar{
+	width:100%;
+	height:500px;
+}
+.padaria{
+	float:left;
+	padding-right:1cm;
+	padding-left: 1cm;
+}
+.padaria1{
+	float:left;
+	padding-right:1cm;
+	padding-left: 4cm;
+}
+.departamentos{
+	color:#1C00A2;
+	font-weight:bold;
+	font-family:arial;
+	font-size:12pt;
+}
+/*Cores
+9893DA
+BBBDF6
+DFDFDF
+*/
